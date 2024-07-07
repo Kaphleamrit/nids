@@ -20,10 +20,10 @@ A Network Intrusion Detection System (NIDS) built using machine learning and dee
 
 ### Clone the Repository
 
-\`\`\`bash
+```bash
 git clone https://github.com/yourusername/nids.git
 cd nids
-\`\`\`
+```
 
 ### Install Dependencies
 
