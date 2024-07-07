@@ -27,9 +27,9 @@ cd nids
 
 ### Install Dependencies
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### Download the Model
 
@@ -39,9 +39,9 @@ Ensure you have the trained TensorFlow model (\`nids_model.h5\`) in the project 
 
 1. **Start the Flask Application**
 
-   \`\`\`bash
+   ```bash
    python app.py
-   \`\`\`
+   ```
 
 2. **Open the Dashboard**
 
@@ -49,7 +49,7 @@ Ensure you have the trained TensorFlow model (\`nids_model.h5\`) in the project 
 
 ## Project Structure
 
-\`\`\`plaintext
+```plaintext
 nids/
 │
 ├── templates/
@@ -67,7 +67,7 @@ nids/
 ├── nids_model.h5               # Pre-trained TensorFlow model
 ├── IDS.ipynb                   # Jupyter Notebook with project code
 └── README.md                   # Project README
-\`\`\`
+```
 
 
 ### Dashboard
