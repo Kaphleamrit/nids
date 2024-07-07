@@ -21,7 +21,7 @@ A Network Intrusion Detection System (NIDS) built using machine learning and dee
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/nids.git
+git clone https://github.com/kaphleamrit/nids.git
 cd nids
 ```
 
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ### Download the Model
 
-Ensure you have the trained TensorFlow model (\`nids_model.h5\`) in the project directory. You can train your own model or use the provided one.
+Ensure you have the trained TensorFlow model (`nids_model.h5`) in the project directory. You can train your own model or use the provided one.
 
 ## Running the Application
 
@@ -45,7 +45,7 @@ Ensure you have the trained TensorFlow model (\`nids_model.h5\`) in the project 
 
 2. **Open the Dashboard**
 
-   Open your web browser and navigate to \`http://127.0.0.1:5000\` to view the dashboard.
+   Open your web browser and navigate to `http://127.0.0.1:5000\` to view the dashboard.
 
 ## Project Structure
 
@@ -59,8 +59,8 @@ nids/
 │   └── styles.css              # CSS styles for the dashboard
 │
 ├── images/
-│   ├── dashboard.png           # Screenshot of the dashboard
-│   └── another_screenshot.png  # Another screenshot
+│   ├── home.png           # Screenshot of the dashboard
+│   
 │
 ├── app.py                      # Main Flask application and anomaly detection logic
 ├── requirements.txt            # Python dependencies
@@ -68,11 +68,6 @@ nids/
 ├── IDS.ipynb                   # Jupyter Notebook with project code
 └── README.md                   # Project README
 ```
-
-
-### Dashboard
-
-![Dashboard](path/to/your/dashboard_screenshot.png)
 
 ## Technologies Used
 
