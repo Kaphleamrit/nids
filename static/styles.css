@@ -1,0 +1,43 @@
+/* static/styles.css */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.jumbotron {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+.alert {
+    margin-bottom: 10px;
+    background-color: #f44336;
+    border-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.alert:hover {
+    transform: scale(1.02);
+}
+
+.navbar {
+    margin-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.navbar-brand {
+    font-family: 'Lucida Console', Monaco, monospace;
+    font-size: 1.5em;
+}
+
+h1.display-4 {
+    font-family: 'Lucida Console', Monaco, monospace;
+}
+
+.lead {
+    font-family: 'Lucida Console', Monaco, monospace;
+    font-size: 1.2em;
+}
